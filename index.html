@@ -37,7 +37,7 @@
 			const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
 		 */
 			const loader = new GLTFLoader();
-			loader.load('http://127.0.0.1:8000/quartier.glb',
+			loader.load('quartier.glb',
 				function (glb) {
 					scene.add(glb.scene);
 					glb.animations;
